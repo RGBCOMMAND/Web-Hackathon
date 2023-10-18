@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    color: inherit;
+    font-style: none;
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: Migra;
+    src:url(../media/fonts/Migra/Migra.otf)
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+nav{
+    background-color: #7a8ba0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+.nav_ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+
+.logo{
+    width: 20%;
+    padding: 2%;
+    font-size: 30px;
+    font-family: Migra;
+}
+
+.logos{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logos i{
+    font-size: 35px;
+}
+
+
+
+
+.main{
+    height: 100vh;
+    width: 100%;   
+    position: relative;
+    z-index: -1;
+}
+
+.background1{
+    background-image: url(../media/image/fasad.JPG);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: migra;
+}
+
+.background2{
+    background-image: url(../media/image/informatika.JPG);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background3{
+    background-image: url(../media/image/karidor.JPG);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background4{
+    background-image: url(../media/image/oqtuvchilar.JPG);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background5{
+    background-image: url(../media/image/hovli1.JPG);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    right: 20px;
+    position: relative;
+}
+
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 22%;
+    border-radius: 20px;
+    border: solid 2px grey;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+
+.card img{
+    height: 80%;
+        
+}
+
+.card a button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #fff;
+}
+
+.fanlar{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 0 30%;
+}
+
+.fan{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 3px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fan i{
+    font-size: 50px;
+    color: black;
+}
+
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #2a558a;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 0 7%;
+    width: 100%;
+    height: 100px;
+    background-color: #7a8ba0;
+    font-size: 30px;
+}
+
+
+
+.copyright{
+    font-size: 15px;
+}
